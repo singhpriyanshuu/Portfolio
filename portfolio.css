@@ -1,6 +1,6 @@
 :root{
   --bg:#f9fafb;
-  --text:#1f2933;
+  --text:#000000;
   --card:#ffffff;
   --accent:#d03c3c;
 }
@@ -14,6 +14,7 @@ body{
   font-family:"Segoe UI", sans-serif;
   background:var(--bg);
   color:var(--text);
+  background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
   scroll-behavior:smooth;
 }
 
